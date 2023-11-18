@@ -13,25 +13,34 @@ This Bash script is designed to automate the installation and configuration of v
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/Ari131B/firefox.git
     ```
 
 2. Navigate to the script directory:
 
     ```bash
-    cd your-repo
+    cd firefox
     ```
 
 3. Make the script executable:
 
     ```bash
-    chmod +x your_script.sh
+    chmod +x start
     ```
+
+    ```bash
+    chmod +x stop
+    ```
+     
+   ```bash
+    chmod +x run.sh
+    ```
+
 
 4. Run the script:
 
     ```bash
-    ./your_script.sh
+    ./run.sh
     ```
 
 ## Functionality
@@ -66,4 +75,4 @@ This Bash script is designed to automate the installation and configuration of v
 ## Example Usage:
 
 ```bash
-./your_script.sh
+./run.sh
